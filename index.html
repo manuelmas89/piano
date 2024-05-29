@@ -6,92 +6,107 @@
     <title>Obras de Piano</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f9f9f9;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
         }
         h1 {
-            color: #333;
             text-align: center;
+            color: #333;
+            margin-top: 20px;
         }
-        .video {
+        .video-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             display: flex;
-            align-items: center;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            margin: 20px 0;
-            padding: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            overflow: hidden;
         }
-        .video img {
-            border-radius: 8px;
-            margin-right: 20px;
+        .video-card img {
+            width: 200px;
+            height: auto;
+            object-fit: cover;
         }
         .video-info {
-            max-width: 600px;
+            padding: 20px;
         }
         .video-info h2 {
             margin: 0 0 10px;
             font-size: 1.5em;
-            color: #555;
+            color: #333;
         }
         .video-info p {
             margin: 0;
-            color: #777;
+            color: #666;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <h1>Obras de Piano</h1>
+    <div class="container">
+        <h1>Obras de Piano</h1>
 
-    <div class="video">
-        <a href="https://youtu.be/nVgRmmhiMQM" target="_blank">
-            <img src="https://img.youtube.com/vi/nVgRmmhiMQM/0.jpg" alt="Ricardo Viñes - Quatre Hommages" width="200">
-        </a>
-        <div class="video-info">
-            <h2>Ricardo Viñes - Quatre Hommages</h2>
-            <p>https://youtu.be/nVgRmmhiMQM</p>
+        <div class="video-card">
+            <a href="https://youtu.be/nVgRmmhiMQM" target="_blank">
+                <img src="https://img.youtube.com/vi/nVgRmmhiMQM/0.jpg" alt="Ricardo Viñes - Quatre Hommages">
+            </a>
+            <div class="video-info">
+                <h2>Ricardo Viñes - Quatre Hommages</h2>
+                <p><a href="https://youtu.be/nVgRmmhiMQM" target="_blank">Ver en YouTube</a></p>
+            </div>
         </div>
-    </div>
 
-    <div class="video">
-        <a href="https://youtu.be/SYy3DVa6v_Q" target="_blank">
-            <img src="https://img.youtube.com/vi/SYy3DVa6v_Q/0.jpg" alt="Maurice Ravel - Selección de Miroirs M.43" width="200">
-        </a>
-        <div class="video-info">
-            <h2>Maurice Ravel - Selección de Miroirs M.43</h2>
-            <p>https://youtu.be/SYy3DVa6v_Q</p>
+        <div class="video-card">
+            <a href="https://youtu.be/SYy3DVa6v_Q" target="_blank">
+                <img src="https://img.youtube.com/vi/SYy3DVa6v_Q/0.jpg" alt="Maurice Ravel - Selección de Miroirs M.43">
+            </a>
+            <div class="video-info">
+                <h2>Maurice Ravel - Selección de Miroirs M.43</h2>
+                <p><a href="https://youtu.be/SYy3DVa6v_Q" target="_blank">Ver en YouTube</a></p>
+            </div>
         </div>
-    </div>
 
-    <div class="video">
-        <a href="https://youtu.be/P-RSCOluJEk" target="_blank">
-            <img src="https://img.youtube.com/vi/P-RSCOluJEk/0.jpg" alt="Gabriel Fauré - Impromptu nº 2 en fa menor, op. 31" width="200">
-        </a>
-        <div class="video-info">
-            <h2>Gabriel Fauré - Impromptu nº 2 en fa menor, op. 31</h2>
-            <p>https://youtu.be/P-RSCOluJEk</p>
+        <div class="video-card">
+            <a href="https://youtu.be/P-RSCOluJEk" target="_blank">
+                <img src="https://img.youtube.com/vi/P-RSCOluJEk/0.jpg" alt="Gabriel Fauré - Impromptu nº 2 en fa menor, op. 31">
+            </a>
+            <div class="video-info">
+                <h2>Gabriel Fauré - Impromptu nº 2 en fa menor, op. 31</h2>
+                <p><a href="https://youtu.be/P-RSCOluJEk" target="_blank">Ver en YouTube</a></p>
+            </div>
         </div>
-    </div>
 
-    <div class="video">
-        <a href="https://youtu.be/_HSnFEjxVAQ" target="_blank">
-            <img src="https://img.youtube.com/vi/_HSnFEjxVAQ/0.jpg" alt="Óscar Esplá - Danza antigua" width="200">
-        </a>
-        <div class="video-info">
-            <h2>Óscar Esplá - Danza antigua</h2>
-            <p>https://youtu.be/_HSnFEjxVAQ</p>
+        <div class="video-card">
+            <a href="https://youtu.be/_HSnFEjxVAQ" target="_blank">
+                <img src="https://img.youtube.com/vi/_HSnFEjxVAQ/0.jpg" alt="Óscar Esplá - Danza antigua">
+            </a>
+            <div class="video-info">
+                <h2>Óscar Esplá - Danza antigua</h2>
+                <p><a href="https://youtu.be/_HSnFEjxVAQ" target="_blank">Ver en YouTube</a></p>
+            </div>
         </div>
-    </div>
 
-    <div class="video">
-        <a href="https://youtu.be/4LYEdA5SbF8" target="_blank">
-            <img src="https://img.youtube.com/vi/4LYEdA5SbF8/0.jpg" alt="Déodat de Séverac - En Languedoc" width="200">
-        </a>
-        <div class="video-info">
-            <h2>Déodat de Séverac - En Languedoc</h2>
-            <p>https://youtu.be/4LYEdA5SbF8</p>
+        <div class="video-card">
+            <a href="https://youtu.be/4LYEdA5SbF8" target="_blank">
+                <img src="https://img.youtube.com/vi/4LYEdA5SbF8/0.jpg" alt="Déodat de Séverac - En Languedoc">
+            </a>
+            <div class="video-info">
+                <h2>Déodat de Séverac - En Languedoc</h2>
+                <p><a href="https://youtu.be/4LYEdA5SbF8" target="_blank">Ver en YouTube</a></p>
+            </div>
         </div>
     </div>
 </body>
