@@ -7,31 +7,41 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f4f9;
+            background: url('https://images.unsplash.com/photo-1486946255434-2466348c2166?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+            background-size: cover;
             margin: 0;
             padding: 0;
+            color: #fff;
         }
         .container {
             max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
         }
         h1, h2 {
             text-align: center;
-            color: #333;
+            color: #f4b400;
             margin-top: 20px;
         }
-        .program-info {
-            background: #fff;
+        .intro {
+            background: rgba(255, 255, 255, 0.2);
             padding: 20px;
             margin-bottom: 20px;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .intro img {
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
         }
         .video-card {
-            background: #fff;
+            background: rgba(255, 255, 255, 0.2);
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
             display: flex;
             margin-bottom: 20px;
             overflow: hidden;
@@ -50,15 +60,15 @@
         .video-info h3 {
             margin: 0 0 10px;
             font-size: 1.5em;
-            color: #333;
+            color: #f4b400;
         }
         .video-info p {
             margin: 0;
-            color: #666;
+            color: #fff;
         }
         a {
             text-decoration: none;
-            color: #007bff;
+            color: #f4b400;
         }
         a:hover {
             text-decoration: underline;
@@ -68,13 +78,35 @@
 <body>
     <div class="container">
         <h1>Obras de Piano</h1>
-        <h2>Programa del Concierto</h2>
-        <div class="program-info">
-            <p><strong>Ricardo Viñes</strong> - Quatre Hommages</p>
-            <p><strong>Maurice Ravel</strong> - Selección de Miroirs M.43</p>
-            <p><strong>Gabriel Fauré</strong> - Impromptu nº 2 en fa menor, op. 31</p>
-            <p><strong>Óscar Esplá</strong> - Danza antigua</p>
-            <p><strong>Déodat de Séverac</strong> - En Languedoc</p>
+        <div class="intro">
+            <img src="https://www.sofyamelikyan.com/img/sofya.jpg" alt="Sofya Melikyan">
+            <p>
+                La pianista Sofya Melikyan dedica ‘Présence lointaine’, su tercera grabación en solitario, al entorno de Ricardo Viñes
+                (Lleida, 1875 – Barcelona, 1943), pianista formado en Barcelona y París que triunfó en toda Europa como intérprete y
+                divulgador de la música francesa y española de su tiempo. Gran amigo de Maurice Ravel, Claude Debussy, dedicatario de
+                obras de Enrique Granados y Manuel de Falla, maestro de piano de Francis Poulenc, hombre de amplísima cultura, estrenó un
+                gran número de obras de los compositores más relevantes de su tiempo y compuso sus “Cuatro homenajes” a los compositores
+                Maurice Ravel, Gabriel Fauré, Erik Satie y al poeta y ensayista León-Paul Fargue, de manera que el programa establece un
+                coloquio entre intérprete y dedicatarios.
+            </p>
+            <h2>BIO Sofya Melikyan, Piano</h2>
+            <p>
+                Nacida en Yerevan, comenzó allí su formación en la Escuela de música Tchaikovsky con Anahit Shajbazyan. Continuó sus
+                estudios en el RCSM de Madrid con Joaquín Soriano, consiguiendo el Premio Extraordinario de Honor Fin de Carrera.
+                Posteriormente perfeccionó su interpretación con Galina Eguiazarova en Madrid, Ramzi Yassa y Brigitte Engerer en París.
+                Realizó estudios de postgrado en la Manhattan School of Music de Nueva York bajo la tutela de Solomon Mikowsky.
+                Actualmente reside en Estrasburgo. Sofya Melikyan ha actuado en prestigiosas salas de Europa, Asia, Estados Unidos,
+                Australia y Canadá. Apasionada intérprete de cámara ha colaborado con Amaury Coeytaux, Gary Hoffman, Torleif Thedéen,
+                Tanja Becker-Bender, Silvia Simionescu, Lise Berthaud, Kim Kashkashian, Karen Ouzounian y Philippe Graffin. Ha sido
+                miembro del Sima Trio con sede en Nueva York. Entre sus recientes actuaciones, conciertos con la Sinfonia Toronto, ORTVE,
+                Real Filharmonía de Galicia, recitales en el Muziekcentrum de Gante, Sala Flagey de Bruselas, Festival ppIANISSIMO de
+                Bulgaria, Fresno State Music Hall, Festival de Música Española de Cádiz -con un intenso programa con 11 estrenos de
+                compositoras españolas-, Málaga, Marbella, Lugo, Alicante y un proyecto semi escenificado en la Fundación Juan March de
+                Madrid dedicado a la música ‘degenerada’. En la pasada temporada actuó en formación de cámara para la Sociedad de
+                conciertos de Alicante, el Festival Puplingue Classique de Ginebra, Les Scènes Musicales de Lafrançaise y Les concerts de
+                Vollore, abrió la temporada de la Banda Municipal de Barcelona con las “Noches” de Falla y debutó con la Orquesta
+                Sinfónica de Navarra con obras de Tsfasman y Schnittke.
+            </p>
         </div>
 
         <div class="video-card">
@@ -123,9 +155,4 @@
             </a>
             <div class="video-info">
                 <h3>Déodat de Séverac - En Languedoc</h3>
-                <p><a href="https://youtu.be/4LYEdA5SbF8" target="_blank">Ver en YouTube</a></p>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+                <p><a href="https://youtu.be/4LYEdA5SbF
