@@ -5,26 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Obras de Piano</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        h1 { color: #333; }
-        p { margin: 10px 0; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .video {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 20px 0;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .video img {
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        .video-info {
+            max-width: 600px;
+        }
+        .video-info h2 {
+            margin: 0 0 10px;
+            font-size: 1.5em;
+            color: #555;
+        }
+        .video-info p {
+            margin: 0;
+            color: #777;
+        }
     </style>
 </head>
 <body>
     <h1>Obras de Piano</h1>
-    <p><strong>Ricardo Viñes - Quatre Hommages</strong><br>
-    https://youtu.be/nVgRmmhiMQM</p>
-    
-    <p><strong>Maurice Ravel - Selección de Miroirs M.43</strong><br>
-    https://youtu.be/SYy3DVa6v_Q</p>
-    
-    <p><strong>Gabriel Fauré - Impromptu nº 2 en fa menor, op. 31</strong><br>
-    https://youtu.be/P-RSCOluJEk</p>
-    
-    <p><strong>Óscar Esplá - Danza antigua</strong><br>
-    https://youtu.be/_HSnFEjxVAQ</p>
-    
-    <p><strong>Déodat de Séverac - En Languedoc</strong><br>
-    https://youtu.be/4LYEdA5SbF8</p>
+
+    <div class="video">
+        <a href="https://youtu.be/nVgRmmhiMQM" target="_blank">
+            <img src="https://img.youtube.com/vi/nVgRmmhiMQM/0.jpg" alt="Ricardo Viñes - Quatre Hommages" width="200">
+        </a>
+        <div class="video-info">
+            <h2>Ricardo Viñes - Quatre Hommages</h2>
+            <p>https://youtu.be/nVgRmmhiMQM</p>
+        </div>
+    </div>
+
+    <div class="video">
+        <a href="https://youtu.be/SYy3DVa6v_Q" target="_blank">
+            <img src="https://img.youtube.com/vi/SYy3DVa6v_Q/0.jpg" alt="Maurice Ravel - Selección de Miroirs M.43" width="200">
+        </a>
+        <div class="video-info">
+            <h2>Maurice Ravel - Selección de Miroirs M.43</h2>
+            <p>https://youtu.be/SYy3DVa6v_Q</p>
+        </div>
+    </div>
+
+    <div class="video">
+        <a href="https://youtu.be/P-RSCOluJEk" target="_blank">
+            <img src="https://img.youtube.com/vi/P-RSCOluJEk/0.jpg" alt="Gabriel Fauré - Impromptu nº 2 en fa menor, op. 31" width="200">
+        </a>
+        <div class="video-info">
+            <h2>Gabriel Fauré - Impromptu nº 2 en fa menor, op. 31</h2>
+            <p>https://youtu.be/P-RSCOluJEk</p>
+        </div>
+    </div>
+
+    <div class="video">
+        <a href="https://youtu.be/_HSnFEjxVAQ" target="_blank">
+            <img src="https://img.youtube.com/vi/_HSnFEjxVAQ/0.jpg" alt="Óscar Esplá - Danza antigua" width="200">
+        </a>
+        <div class="video-info">
+            <h2>Óscar Esplá - Danza antigua</h2>
+            <p>https://youtu.be/_HSnFEjxVAQ</p>
+        </div>
+    </div>
+
+    <div class="video">
+        <a href="https://youtu.be/4LYEdA5SbF8" target="_blank">
+            <img src="https://img.youtube.com/vi/4LYEdA5SbF8/0.jpg" alt="Déodat de Séverac - En Languedoc" width="200">
+        </a>
+        <div class="video-info">
+            <h2>Déodat de Séverac - En Languedoc</h2>
+            <p>https://youtu.be/4LYEdA5SbF8</p>
+        </div>
+    </div>
 </body>
 </html>
