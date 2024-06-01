@@ -1,161 +1,49 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Obras de Piano</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background: url('https://images.unsplash.com/photo-1486946255434-2466348c2166?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
-            background-size: cover;
-            margin: 0;
-            padding: 0;
-            color: #fff;
-        }
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
-            background-color: rgba(0, 0, 0, 0.8);
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-        }
-        h1, h2 {
-            text-align: center;
-            color: #f4b400;
-            margin: 20px 0;
-        }
-        .intro, .announcement {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-        }
-        .intro img {
-            display: block;
-            margin: 0 auto 20px;
-            border-radius: 10px;
-            max-width: 100%;
-            height: auto;
-        }
-        .announcement p {
-            text-align: center;
-            font-size: 1.5em;
-            color: #f4b400;
-            margin: 0;
-        }
-        .video-card {
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-            display: flex;
-            margin-bottom: 20px;
-            overflow: hidden;
-        }
-        .video-card img {
-            width: 200px;
-            height: auto;
-            object-fit: cover;
-            border-right: 2px solid rgba(0, 0, 0, 0.1);
-        }
-        .video-info {
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            color: #fff;
-        }
-        .video-info h3 {
-            margin: 0 0 10px;
-            font-size: 1.5em;
-            color: #f4b400;
-        }
-        .video-info p {
-            margin: 0;
-        }
-        a {
-            text-decoration: none;
-            color: #f4b400;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Obras de Piano</h1>
-        <div class="intro">
-            <img src="https://www.palaumusica.cat/images/1303883/image_grid.jpg" alt="Sofya Melikyan">
-            <p>
-                La pianista Sofya Melikyan dedica ‘Présence lointaine’, su tercera grabación en solitario, al entorno de Ricardo Viñes
-                (Lleida, 1875 – Barcelona, 1943), pianista formado en Barcelona y París que triunfó en toda Europa como intérprete y
-                divulgador de la música francesa y española de su tiempo. Gran amigo de Maurice Ravel, Claude Debussy, dedicatario de
-                obras de Enrique Granados y Manuel de Falla, maestro de piano de Francis Poulenc, hombre de amplísima cultura, estrenó un
-                gran número de obras de los compositores más relevantes de su tiempo y compuso sus “Cuatro homenajes” a los compositores
-                Maurice Ravel, Gabriel Fauré, Erik Satie y al poeta y ensayista León-Paul Fargue, de manera que el programa establece un
-                coloquio entre intérprete y dedicatarios.
-            </p>
-            <h2>BIO Sofya Melikyan, Piano</h2>
-            <p>
-                Nacida en Yerevan, comenzó allí su formación en la Escuela de música Tchaikovsky con Anahit Shajbazyan. Continuó sus
-                estudios en el RCSM de Madrid con Joaquín Soriano, consiguiendo el Premio Extraordinario de Honor Fin de Carrera.
-                Posteriormente perfeccionó su interpretación con Galina Eguiazarova en Madrid, Ramzi Yassa y Brigitte Engerer en París.
-                Realizó estudios de postgrado en la Manhattan School of Music de Nueva York bajo la tutela de Solomon Mikowsky.
-                Actualmente reside en Estrasburgo. Sofya Melikyan ha actuado en prestigiosas salas de Europa, Asia, Estados Unidos,
-                Australia y Canadá. Apasionada intérprete de cámara ha colaborado con Amaury Coeytaux, Gary Hoffman, Torleif Thedéen,
-                Tanja Becker-Bender, Silvia Simionescu, Lise Berthaud, Kim Kashkashian, Karen Ouzounian y Philippe Graffin. Ha sido
-                miembro del Sima Trio con sede en Nueva York. Entre sus recientes actuaciones, conciertos con la Sinfonia Toronto, ORTVE,
-                Real Filharmonía de Galicia, recitales en el Muziekcentrum de Gante, Sala Flagey de Bruselas, Festival ppIANISSIMO de
-                Bulgaria, Fresno State Music Hall, Festival de Música Española de Cádiz -con un intenso programa con 11 estrenos de
-                compositoras españolas-, Málaga, Marbella, Lugo, Alicante y un proyecto semi escenificado en la Fundación Juan March de
-                Madrid dedicado a la música ‘degenerada’. En la pasada temporada actuó en formación de cámara para la Sociedad de
-                conciertos de Alicante, el Festival Puplingue Classique de Ginebra, Les Scènes Musicales de Lafrançaise y Les concerts de
-                Vollore, abrió la temporada de la Banda Municipal de Barcelona con las “Noches” de Falla y debutó con la Orquesta
-                Sinfónica de Navarra con obras de Tsfasman y Schnittke.
-            </p>
-        </div>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        <div class="announcement">
-            <p>Aquí tienes el programa que va a tocar el 31 de Mayo en Alicante</p>
-        </div>
+header {
+    background-color: #004080;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
 
-        <div class="video-card">
-            <a href="https://youtu.be/nVgRmmhiMQM" target="_blank">
-                <img src="https://img.youtube.com/vi/nVgRmmhiMQM/0.jpg" alt="Ricardo Viñes - Quatre Hommages">
-            </a>
-            <div class="video-info">
-                <h3>Ricardo Viñes - Quatre Hommages</h3>
-                <p><a href="https://youtu.be/nVgRmmhiMQM" target="_blank">Ver en YouTube</a></p>
-            </div>
-        </div>
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-        <div class="video-card">
-            <a href="https://youtu.be/SYy3DVa6v_Q" target="_blank">
-                <img src="https://img.youtube.com/vi/SYy3DVa6v_Q/0.jpg" alt="Maurice Ravel - Selección de Miroirs M.43">
-            </a>
-            <div class="video-info">
-                <h3>Maurice Ravel - Selección de Miroirs M.43</h3>
-                <p><a href="https://youtu.be/SYy3DVa6v_Q" target="_blank">Ver en YouTube</a></p>
-            </div>
-        </div>
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
 
-        <div class="video-card">
-            <a href="https://youtu.be/P-RSCOluJEk" target="_blank">
-                <img src="https://img.youtube.com/vi/P-RSCOluJEk/0.jpg" alt="Gabriel Fauré - Impromptu nº 2 en fa menor, op. 31">
-            </a>
-            <div class="video-info">
-                <h3>Gabriel Fauré - Impromptu nº 2 en fa menor, op. 31</h3>
-                <p><a href="https://youtu.be/P-RSCOluJEk" target="_blank">Ver en YouTube</a></p>
-            </div>
-        </div>
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
 
-        <div class="video-card">
-            <a href="https://youtu.be/_HSnFEjxVAQ" target="_blank">
-                <img src="https://img.youtube.com/vi/_HSnFEjxVAQ/0.jpg" alt="Óscar Esplá - Danza antigua">
-            </a>
-            <div class="video-info">
-                <h3>Óscar Esplá - Danza antigua</h3>
-                <p><a href="https://youtu.be/_HSnFEjxVAQ" target="_blank">Ver en YouTube</a></
+#hero {
+    background-color: #e0e0e0;
+    padding: 2em 0;
+    text-align: center;
+}
+
+section {
+    padding: 2em 1em;
+    text-align: center;
+}
+
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
